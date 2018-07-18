@@ -1,0 +1,178 @@
+/*清除浏览器本身自带的所有样式*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr, acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption, tbody,tfoot,thead,tr,th,td{border:0;outline:0;vertical-align:baseline; background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+.top{
+    width:100%;
+    height:50px;
+    background-color:rgb(84, 178, 221);
+    text-align:right;
+    font-family:宋体;
+    font-size:15px;
+    line-height:50px;
+    color:white;
+}
+.title{
+    width:200px;
+    height: 50px;
+    float:left;
+    font-size:35px;
+    font-family:华文行楷;
+    color:rgb(255, 255, 255);
+    text-align:center;
+}
+.date{
+    width:600px;
+    height:50px;
+    float:left;
+    font-size:15px;
+    color:white;
+}
+.top img{
+    border-radius:30px;
+    overflow:hidden;
+    vertical-align: middle;
+}
+.middle{
+    height:570px;
+}
+.left{
+    width:13%;
+    height:110%;
+    float:left;
+    line-height:40px;
+    background-color:rgb(56, 57, 58);
+}
+.right{
+    background-color:rgba(245, 254, 255, 0.973);
+    float:left;
+    width:87%;
+    height:570px;
+}
+ul{
+    list-style: none;
+    font-family:宋体;
+    font-size:20px;
+}
+li{
+    text-indent:15px;
+    width:200px;
+}
+#u1 {
+    display: none;
+    font-size:17px;
+    font-family:宋体;
+}
+#u2 {
+    display: none;
+    font-size:17px;
+    font-family:宋体;
+}
+#u3 {
+    display: none;
+    font-size:17px;
+    font-family:宋体;
+}
+#u4 {
+    display: none;
+    font-size:17px;
+    font-family:宋体;
+}
+#u5{
+    display: none;
+    font-size:17px;
+    font-family:宋体;
+}
+a{
+    text-decoration:none;
+    color:white;
+    width: 200px;
+}
+a:hover{
+    background-color:slategray;
+}
+.add{
+    position:relative;
+    top:150px;
+    left:200px;
+}
+.tab1{
+    position: relative;
+    left:200px;
+    top:150px;
+    color:rgb(149, 221, 250);
+    font-family:隶书;
+    font-size:25px;
+    border-collapse:collapse;
+    border:none;
+    line-height:30px;
+}
+.tab2{
+    position: relative;
+    left:200px;
+    top:150px;
+    color:rgb(2, 15, 20);
+    font-size:20px;
+    border-collapse:collapse;
+    border:none;
+    line-height:30px;
+}
+.tab3{
+    position:relative;
+    left:100px;
+    top:120px;
+}
+.tab4{
+    position:relative;
+    left:100px;
+    top:120px;
+}
+.tab1 td{
+    width:200px;
+    border:solid 3px rgb(182, 228, 241);
+}
+.tab2 td{
+    width:150px;
+    border:double 1px rgb(110, 129, 129);
+}
+.tab3 td{
+    text-align:center;
+    width:150px;
+    border:double 1px rgb(110, 129, 129);
+}
+.tab4 td{
+    text-align:center;
+    width:120px;
+    border:double 1px rgb(110, 129, 129);
+}
+.goods{
+    position:relative;
+    top:100px;
+    left:100px;
+    line-height:30px;
+    font-size:17px;
+    font-family:微软雅黑;
+}
+.page{
+    width:900px;
+    position:relative;
+    left:100px;
+    top:130px;
+}
+.page a{
+    color:black;
+    font-size:15px;
+    font-family:微软雅黑;
+    text-align:right;
+}
+iframe{
+    border: 0px;
+    width:1149px;
+    height:570px;
+}
